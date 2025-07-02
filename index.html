@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css">
     <title>My Project Poem Generator</title>
 </head>
@@ -12,14 +13,11 @@
         <h1>Poem Generator</h1>
     </header>
     <main>
-        <form>
+        <form id="poem-form">
             <input type="text" placeholder="Enter a topic" autofocus required autocomplete="off" class="topic-box" />
             <input type="submit" class="submit-button"/>
         </form>
-        <div class="poem-section">
-          Moments like these, so often unheard,
-            <br/>
-          Are what life means, and means so much.  
+        <div class="poem-section" id="poem">   
         </div>
     </main>
     <footer>
