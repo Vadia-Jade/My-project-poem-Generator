@@ -7,15 +7,16 @@
     <title>My Project Poem Generator</title>
 </head>
 <body>
+  <div class="container">
     <header>
         <h1>Poem Generator</h1>
     </header>
     <main>
         <form>
-            <input type="text" placeholder="Enter a topic" autofocus required autocomplete="off" />
-            <input type="submit"/>
+            <input type="text" placeholder="Enter a topic" autofocus required autocomplete="off" class="topic-box" />
+            <input type="submit" class="submit-button"/>
         </form>
-        <div>
+        <div class="poem-section">
           Moments like these, so often unheard,
             <br/>
           Are what life means, and means so much.  
@@ -27,6 +28,7 @@
             and hosted on <a href="https://my-ai-generator-poem-project.netlify.app" target="_blank">Netlify</a>
         </p>
     </footer>
+  </div>
     <script src="src/java.js"></script>
 </body>
 </html>
