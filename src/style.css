@@ -22,13 +22,21 @@ h1 {
     color:#44107A;
 
 }
-form{
-    padding: 29px;
+.form-wrap{
     background-color: white;
-    box-shadow: 0px 28px 60px rgba(65, 50, 100, 0.8);
-    border-radius: 13px;
-    display: flex;
     margin-bottom: 28px;
+    border-radius: 13px;
+    box-shadow: 0px 28px 60px rgba(65, 50, 100, 0.8);
+    padding: 29px;
+}
+form{
+    display: flex;   
+}
+.example{
+    line-height: 1.5;
+    margin-top: 8px;
+    opacity: 0.7;
+    font-size: 14px;
 }
 .topic-box{
     padding: 15px;
@@ -59,6 +67,9 @@ form{
     border-left: 3px solid #44107A;
     box-shadow: 0px 28px 60px rgba(39, 33, 66, 0.3);
 }
+.hidden {
+    display: none;
+}
 .poem strong {
     color: #44107A;
 }
@@ -67,3 +78,12 @@ footer {
     font-size: 13px;
     margin-top: 30px;
 }
+.generating {
+    animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+    to {
+        visibility: hidden; }
+    }
+      
+    
